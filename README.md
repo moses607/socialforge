@@ -2,7 +2,7 @@
 
 **Turn any Claude (or any capable model) into a complete AI social-media growth agency.**
 
-SocialForge is an open-source suite of **17 composable skills** — model-invoked playbooks that encode how top creators actually grow: reverse-engineering competitors, nailing an audience, generating scroll-stopping hooks, writing retention-engineered scripts, turning one video into 30+ posts, riding trends, engineering engagement, and adapting across every platform. An **orchestrator** chains them into end-to-end workflows.
+SocialForge is an open-source suite of **20 composable skills** — model-invoked playbooks that encode how top creators actually grow: reverse-engineering competitors, nailing an audience, generating scroll-stopping hooks, writing retention-engineered scripts, turning one video into 30+ posts, riding trends, engineering engagement, and adapting across every platform. An **orchestrator** chains them into end-to-end workflows.
 
 These aren't "act as a social media expert" prompts. Each skill is a repeatable method with an output template, platform variants, and hard rules — the difference between a prompt and a system.
 
@@ -24,7 +24,7 @@ These aren't "act as a social media expert" prompts. Each skill is a repeatable 
 
 ---
 
-## 🧠 The 17 skills
+## 🧠 The 20 skills
 
 ### 🎛️ Orchestration
 | Skill | What it does |
@@ -37,6 +37,7 @@ These aren't "act as a social media expert" prompts. Each skill is a repeatable 
 | `onboarding-brand-brief` | Captures your niche, positioning, goal, and voice into a reusable brief the other skills consume |
 | `audience-bullseye` | Hyper-precise persona built on psychographics & jobs-to-be-done — pains, desires, the words they use |
 | `channel-competitor-analysis` | Reverse-engineers any creator's hooks, pillars, cadence, and exploitable weaknesses |
+| `profile-optimizer` | Turns your profile into a follow-and-convert machine (bio, pinned, link-in-bio) |
 
 ### 🔥 Trends & discovery
 | Skill | What it does |
@@ -51,6 +52,8 @@ These aren't "act as a social media expert" prompts. Each skill is a repeatable 
 | `viral-script-generator` | Shot-by-shot short-form scripts engineered for retention (hook → beats → payoff → CTA) |
 | `content-strategy-engine` | Pillars, content ratios, a format library, and a weekly calendar — a repeatable system |
 | `campaign-builder` | End-to-end launch / series / challenge plans with a day-by-day beat sheet |
+| `youtube-title-lab` | Generates and stress-tests YouTube title + thumbnail-text pairs for CTR |
+| `offer-cta-architect` | Designs the CTA ladder from free content → owned audience → offer, without feeling salesy |
 
 ### ♻️ Distribution & consistency
 | Skill | What it does |
@@ -89,11 +92,11 @@ Example:
 
 ## 🧩 How skills work
 
-A skill is a directory with a `SKILL.md` (YAML frontmatter + instructions). The model keeps only the one-line description in context and loads the full playbook when your request matches — so you can install all 17 without bloating context. They **compose**: each skill's output feeds the next.
+A skill is a directory with a `SKILL.md` (YAML frontmatter + instructions). The model keeps only the one-line description in context and loads the full playbook when your request matches — so you can install all 20 without bloating context. They **compose**: each skill's output feeds the next.
 
 ## 🗺️ Roadmap
 
-See [`ROADMAP.md`](ROADMAP.md) — planned: `profile-optimizer`, `offer-cta-architect`, `newsletter-growth`, `youtube-title-lab`, `ugc-brief`, plus platform-specific packs and integration hooks (Make/Zapier/webhooks). Contributions welcome.
+See [`ROADMAP.md`](ROADMAP.md) — planned: `newsletter-growth`, `ugc-brief`, `comment-mining`, plus platform-specific packs and integration hooks (Make/Zapier/webhooks). Contributions welcome.
 
 ## 🤝 Contributing
 

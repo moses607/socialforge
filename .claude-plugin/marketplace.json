@@ -31,7 +31,10 @@
         "./skills/brand-voice-keeper",
         "./skills/engagement-booster",
         "./skills/analytics-interpreter",
-        "./skills/performance-optimizer"
+        "./skills/performance-optimizer",
+        "./skills/profile-optimizer",
+        "./skills/offer-cta-architect",
+        "./skills/youtube-title-lab"
       ]
     }
   ]
