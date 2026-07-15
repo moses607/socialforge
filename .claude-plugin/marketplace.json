@@ -1,0 +1,38 @@
+{
+  "name": "socialforge",
+  "owner": {
+    "name": "Cherry FRANCOIS",
+    "email": "192753783+moses607@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "SocialForge — an open-source suite of Claude skills that turns any capable model into a full AI social-media growth agency: analysis, strategy, hooks, scripts, repurposing, trends, engagement, and an orchestrator that runs them end-to-end.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "socialforge",
+      "description": "17 composable social-media growth skills + an orchestrator. Analyze competitors, nail your audience, generate hooks and scripts, repurpose one video into 30+, ride trends, boost engagement, and adapt across every platform. Works with Claude and any capable model.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/growth-orchestrator",
+        "./skills/onboarding-brand-brief",
+        "./skills/audience-bullseye",
+        "./skills/channel-competitor-analysis",
+        "./skills/breakout-detector",
+        "./skills/trend-jacker",
+        "./skills/hook-machine",
+        "./skills/viral-script-generator",
+        "./skills/content-strategy-engine",
+        "./skills/campaign-builder",
+        "./skills/repurpose-master",
+        "./skills/cross-platform-adapter",
+        "./skills/visual-idea-generator",
+        "./skills/brand-voice-keeper",
+        "./skills/engagement-booster",
+        "./skills/analytics-interpreter",
+        "./skills/performance-optimizer"
+      ]
+    }
+  ]
+}
