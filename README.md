@@ -1,5 +1,7 @@
 # 🚀 SocialForge
 
+![SocialForge — 20 free, open-source AI skills that turn any model into a social-media growth agency: hooks, viral scripts, competitor x-ray, repurposing, trend jacking, analytics](assets/socialforge.png)
+
 **Turn any Claude (or any capable model) into a complete AI social-media growth agency.**
 
 SocialForge is an open-source suite of **20 composable skills** — model-invoked playbooks that encode how top creators actually grow: reverse-engineering competitors, nailing an audience, generating scroll-stopping hooks, writing retention-engineered scripts, turning one video into 30+ posts, riding trends, engineering engagement, and adapting across every platform. An **orchestrator** chains them into end-to-end workflows.
