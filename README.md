@@ -106,6 +106,10 @@ New skills and improvements are welcome — see [`CONTRIBUTING.md`](CONTRIBUTING
 
 SocialForge is the free growth suite. If you want the deeper, paid packs — production skills for shipping software, meta-skills for operating the model itself, and frontier agent skills — see **[SkillForge](https://github.com/moses607/skillforge)**.
 
+## ⚡ Building agents, not just content?
+
+See **[Aether OS](https://github.com/moses607/aether-os)** — a free, model-agnostic **AI agent kernel** (persistent memory, governed multi-agent orchestrator, eval harness, cost tracking). Apache-2.0. It's the infrastructure these skills run on top of.
+
 ## 📄 License
 
 [MIT](LICENSE) © Cherry FRANCOIS. Use it, fork it, ship with it.
